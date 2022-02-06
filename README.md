@@ -22,9 +22,11 @@ countAddsTo10. How can you imitate this code with two sets?
 
  
 # Problem 3: Intersection and difference
-Use the removeAll and retainAll functions of a set to return the items in `List<List<String>>` first that are not in 
+Use the `removeAll` and `retainAll` functions of a set to return the items in `List<List<String>>` first that are not in 
 `List<List<String>>` second. As an illustrative example, consider John, who has a list of cities he wants to go to
 in Asia and Europe, and Jane, who wants to go also but has already been to some cities in both Europe and Asia.
+
+Please don't use `.contains`  or `.remove` in the code.
 
  
 # Problem 4: Hashing
