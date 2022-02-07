@@ -12,7 +12,8 @@ Please ignore any constants; e.g. write O(N) instead of O(2N).
 
 # Problem 2: Improving Runtime
 Solve each of the below problems in O(N) time using a HashSet. Refer to the class worksheet for an example. 
-See also tests in Problem 2 tests.java
+See also tests in Problem 2 tests.java. The strategy of each of these problems is essentially the same;
+instead of two FOR loops, use one FOR loop with a set.
 
 * 2.1 Determine if a string has unique characters
 * 2.2 Determine if a linked list contains any duplicate values, i.e. if two of the nodes contain the same value.
