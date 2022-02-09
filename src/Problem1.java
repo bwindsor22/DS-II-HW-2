@@ -21,8 +21,8 @@ public class Problem1 {
         int sum = 0;
         for(int i = 0; i < ints.size(); i ++) {
             for (int j = 0; j < ints.size(); j ++) {
-                for (int k = 0; j < ints.size(); j ++) {
-                    for (int l = 0; j < ints.size(); j ++) {
+                for (int k = 0; j < ints.size(); k ++) {
+                    for (int l = 0; j < ints.size(); l ++) {
                         sum += i + j + k + l;
                     }
                 }
